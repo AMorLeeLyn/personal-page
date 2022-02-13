@@ -1,0 +1,138 @@
+h1 {
+    text-align: center;
+    background: black;
+    color: #e87c23;
+}
+
+@font-face {
+    font-family: bleachFont;
+    src: url(fonts/FontBleach.ttf);
+
+}
+
+@font-face {
+    font-family: narutoFont;
+    src: url(fonts/njnaruto.ttf);
+}
+
+@font-face {
+    font-family: onepiecefont;
+    src: url(fonts/onepiecefont.ttf);
+}
+
+#bleach_button {
+    font-family: bleachFont;
+    background-color: #e87c23;
+    font-size: 25px;
+    border: none;
+    /*margin-left: 14%;*/
+}
+
+#onepiece_button {
+    font-family: onepiecefont;
+    background-color: #e87c23;
+    font-size: 27px;
+    border: none;
+    /*margin-left: 24%;*/
+}
+
+#naruto_button {
+    font-family: narutoFont;
+    background-color: #e87c23;
+    font-size: 25px;
+    border: none;
+    /*margin-left: 26%;*/
+}
+
+button {
+    display: flex;
+    justify-content: space-around;
+}
+
+#backtotop {
+    background-color: #ab1313;
+    font-size: 15px;
+    border: none;
+    margin-left: 90%;
+}
+
+#bleachFont { 
+    font-family: bleachFont;
+    color: #e87c23;
+    background-color: black;
+    clip-path: polygon(100% 0, 100% 0, 90% 100%, 0 100%, 10% 0);
+    font-size: 40px;
+    text-align: center;
+    margin: 40px;
+    padding: 20px;
+}
+
+#narutoFont {
+    font-family: narutoFont;
+    color: #e87c23;
+    text-shadow: -2px 0 #2713ab, 0 2px #2713ab, 2px 0 #2713ab, 0 -2px #2713ab;
+    font-size: 60px;
+    text-align: center;
+    margin: 40px;
+    padding: 20px; 
+}
+
+#onepiecefont {
+    font-family: onepiecefont;
+    color: #007db3;
+    font-size: 80px;
+    text-align: center;
+    margin: 20px;
+    padding: 20px; 
+
+}
+
+span {
+    font-weight: bold;
+}
+
+blockquote {
+    text-align: center;
+} 
+
+.no_number {
+    list-style-type: square;
+} 
+
+#div1 {
+    background : #e87c23;
+}
+
+#div2 {
+    background : #2713ab;
+}
+
+#div3 {
+    background : #ab1313;
+}
+
+.link {
+    color: white;
+}
+
+div {
+    margin: -20px;
+    padding: 20px;
+    color: white;
+    
+}
+
+#main_image {
+   width: 100%;
+}
+
+#other_images {
+    width: 400px;
+    height: 600px;
+}
+
+#float_image {
+    height: 600px;
+    width: 1000px;
+}
+  
