@@ -25,7 +25,6 @@ h1 {
     background-color: #e87c23;
     font-size: 25px;
     border: none;
-    /*margin-left: 14%;*/
 }
 
 #onepiece_button {
@@ -33,7 +32,6 @@ h1 {
     background-color: #e87c23;
     font-size: 27px;
     border: none;
-    /*margin-left: 24%;*/
 }
 
 #naruto_button {
@@ -41,10 +39,9 @@ h1 {
     background-color: #e87c23;
     font-size: 25px;
     border: none;
-    /*margin-left: 26%;*/
 }
 
-button {
+section {
     display: flex;
     justify-content: space-around;
 }
@@ -118,8 +115,7 @@ blockquote {
 div {
     margin: -20px;
     padding: 20px;
-    color: white;
-    
+    color: white; 
 }
 
 #main_image {
@@ -135,4 +131,20 @@ div {
     height: 600px;
     width: 1000px;
 }
-  
+
+.characters {
+    border: 3px solid black;
+    width: 200px;
+    height: 250px;
+}
+
+.character-chart{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.char_img {
+    width: 200px;
+    height: 250px;
+}
