@@ -5,13 +5,21 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div id="div1">
-        <Section id = "buttons">
-            <button id="bleach_button"><a href="#bleachFont">BLEACH</a></button>
-            <button id="onepiece_button"><a href="#div3">ONE PIECE</a></button>
-            <button id="naruto_button"><a href="#div2">NARUTO</a></button>
-        </Section>
 
+    <div id="div1" class="bodyBackground"> 
+
+        <section id="darkbutton">
+            <button id="darkModeButton" onclick="toggleDarkMode()">Dark Mode</button>
+        </section>
+
+        <nav>
+            <ul id = "navbuttons">
+                <li><a id="bleach_button" class = "navbtncolor" href="#bleachFont">BLEACH</a></li>
+                <li><a id="onepiece_button" class = "navbtncolor" href="#div3">ONE PIECE</a></li>
+                <li><a id="naruto_button" class = "navbtncolor" href="#div2">NARUTO</a></li>
+            </ul>
+        </nav>
+        
         <h1>The Era of The Big Three</h1>
 
         <img id="main_image" src="https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vbWVkaWEucmJsLm1zL2ltYWdlP3U9JTJGZmlsZXMlMkYyMDE2JTJGMDYlMkYyOSUyRjYzNjAyODM4OTk2NzY3NjY1MC02NzI4NDU4Ml9iaWclMjUyMDMuanBnJmhvPWh0dHBzJTNBJTJGJTJGYXo2MTY1Nzgudm8ubXNlY25kLm5ldCZzPTQwNCZoPWM1MjdlZTQ0NTRlOGJjNWZkNzdkZjJjNzExNTc2MGNmMDc4ODEwM2Q5NTFkZjNlYzMwMGZjNzEzMDdmODAyMzMmc2l6ZT05ODB4JmM9MTc5MDEwNzgyMyIsImV4cGlyZXNfYXQiOjE2ODIyMjU3MzJ9.sNqJ3sYUCUbr9H0eL2Hkp_TLDwhuTo5MXGTOml329Tk/img.jpg?width=1200&height=628" alt="picture of The Big Three: Bleach , Naruto, and One Piece">
@@ -161,7 +169,7 @@
         
     </div>
     
-    <div id="div2">
+    <div id="div2" class="bodyBackground">
 
         <h2 id="narutoFont"> NARUTO </h2>
 
@@ -276,7 +284,7 @@
         
 
     </div>
-    <div id="div3">
+    <div id="div3" class="bodyBackground">
 
         <h2 id="onepiecefont"> ONE PIECE </h2>
 
@@ -385,6 +393,6 @@
 
 
     </div>
-    <script src="index.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
