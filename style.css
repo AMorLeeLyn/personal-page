@@ -20,28 +20,43 @@ h1 {
     src: url(fonts/onepiecefont.ttf);
 }
 
-#buttons {
+#darkbutton {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -15px;
+    padding: 0;
+}
+
+#darkModeButton { 
+    background: #e87c23;
+}
+
+#navbuttons {
     display: flex;
     justify-content: space-around;
+    list-style-type: none;
+}
+
+.navbtncolor {
+    color: black;
 }
 
 #bleach_button {
     font-family: bleachFont;
-    background-color: #e87c23;
     font-size: 25px;
+    font-weight: bold;
     border: none;
 }
 
 #onepiece_button {
     font-family: onepiecefont;
-    background-color: #e87c23;
     font-size: 27px;
+    font-weight: 900;
     border: none;
 }
 
 #naruto_button {
     font-family: narutoFont;
-    background-color: #e87c23;
     font-size: 25px;
     border: none;
 }
