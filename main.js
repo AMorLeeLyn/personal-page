@@ -79,3 +79,15 @@ function toggleDarkMode() {
     } 
     */
 }
+
+//click image to play video directly on the webpage
+//Doesn't quite do what I want it to do. There's a better way, I'm sure. 
+function playVideo() {
+
+    let finalArcVideo = document.getElementById("video");
+
+    if(finalArcVideo.innerHTML = "<img src='https://d.newsweek.com/en/full/1956752/bleach.webp?w=790&f=1c5413a8925db8ecc2190c62d8f729e1'>") {
+
+        finalArcVideo.innerHTML = "<video width='1000' height='600' controls='controls'><source src='bleach_video.mp4' type='video/mp4'></video>";
+    }
+} 
